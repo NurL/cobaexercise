@@ -11,13 +11,17 @@ class EmoticonFace extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(color: Colors.blue[600], borderRadius: BorderRadius.circular(12)),
+      decoration: BoxDecoration(
+        color: Colors.blue[500],
+        borderRadius: BorderRadius.circular(12),
+      ),
       padding: const EdgeInsets.all(12),
       child: Center(
-          child: Text(
-        emoticonFace,
-        style: const TextStyle(fontSize: 21),
-      )),
+        child: Text(
+          emoticonFace,
+          style: const TextStyle(fontSize: 22),
+        ),
+      ),
     );
   }
 }
